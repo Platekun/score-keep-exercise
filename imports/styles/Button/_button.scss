@@ -1,0 +1,23 @@
+.button {
+    background: white;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 1.3rem;
+    outline: none;
+    padding: 1.3rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    &:hover {
+        background-color: #e8e8e8;
+    }
+    &:active {
+        background-color: #ddd;
+        transform: scale(1.1);
+    }
+    &--round {
+        border-radius: 50%;
+        height: 4rem;
+        width: 4rem;
+    }
+}

@@ -1,0 +1,25 @@
+.item {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    list-style-type: none;
+    margin-bottom: 1.3rem;
+    padding: 1.3rem;
+    transition: background-color ease 0.2s;
+    &__message {
+        font-size: 1.3rem;
+        font-style: italic;
+        font-weight: 300;
+        text-align: center;
+    }
+    &--first {
+        background-color: #44C176;
+        color: white;
+    }
+    &--second {
+        background-color: #98CEAD;
+        color: #e8e8e8;
+    }
+    &--third {
+        background-color: #CBE8D6;
+    }
+}
